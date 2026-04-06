@@ -63,7 +63,7 @@ exports.updateResponse = async (req, res) => {
     const updatedResponse = await ResponseModel.findByIdAndUpdate(
       req.params.id,
       req.body,
-      { new: true },
+      { returnDocument: "after" },
     );
     res.status(200).json(updatedResponse);
   } catch (err) {
