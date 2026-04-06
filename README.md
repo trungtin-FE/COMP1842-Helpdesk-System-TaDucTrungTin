@@ -89,4 +89,4 @@ npm run serve
 
 ---
 
-*Feel free to reach out if you have any questions about this project.*
+*Have a good day!*
